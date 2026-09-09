@@ -1,4 +1,6 @@
-export class veiculos implements Veiculos{ 
+export class veiculos implements veiculos{ 
+
+let nome: string = "ferrari"; 
 
 ligar (): void; {
     console.log("o carro esta ligando");
@@ -23,4 +25,4 @@ acelerar(): void;{
 Ferrari(): void; { 
     console.log("o carro esta freando");
 }
-} 
+}  
