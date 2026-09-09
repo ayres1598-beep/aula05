@@ -1,0 +1,13 @@
+export enum MarcaDeCarro {  
+
+    TOYOTA = "TOYOTA",
+    MERCEDES = "MERCEDES",
+    BMW = "BMW",
+    TESLA = "TESLA",
+    FERRARI = "FERRARI",
+    HYUNDAI = "HYUNDAI",
+    AUDI = "AUDI",
+    PORSCHE = "PORSCHE",
+    HONDA = "HONDA",
+    VOLKSWAGEN = "VOLKSWAGEN",
+}
