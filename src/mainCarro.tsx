@@ -1,12 +1,12 @@
-import {MarcaDeCarro} from "./MarcaDeCarro" 
+import {MarcaDeCarro} from "./MarcaDeCarro";
 
-const carro1: MarcaDeCarro = MarcaDeCarro;
-const carro2: MarcaDeCarro = MarcaDeCarro;
-const carro3: MarcaDeCarro = MarcaDeCarro;
-const carro4: MarcaDeCarro = MarcaDeCarro;
-const carro5: MarcaDeCarro = MarcaDeCarro;
-const carro6: MarcaDeCarro = MarcaDeCarro;
-const carro7: MarcaDeCarro = MarcaDeCarro;
+const carro1: MarcaDeCarro = new MarcaDeCarro ();
+const carro2: MarcaDeCarro = new MarcaDeCarro ();
+const carro3: MarcaDeCarro = new MarcaDeCarro ();
+const carro4: MarcaDeCarro = new MarcaDeCarro ();
+const carro5: MarcaDeCarro = new MarcaDeCarro ();
+const carro6: MarcaDeCarro =new MarcaDeCarro ();
+const carro7: MarcaDeCarro = new MarcaDeCarro ();
 
 console.log("roupa1");
 console.log("roupa2");

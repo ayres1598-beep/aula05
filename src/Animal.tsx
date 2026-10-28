@@ -1,26 +1,24 @@
-interface Animal{
-    dormir =():void; 
+interface Animal {
+    dormir(): void;
     caminhar(): void;
-    correr (): void; 
+    correr(): void;
 }
- 
+
 class Cachorro implements Animal {
 
-dormir (): void; {
-    console.log("o cachorro esta dormindo");
-}
+    dormir(): void {
+        console.log("o cachorro esta dormindo");
+    }
 
-caminhar(): void; {
-    console.log("o cachorro esta caminhando");
-}
+    caminhar(): void {
+        console.log("o cachorro esta caminhando");
+    }
 
-correr (): void; {
-    console.log("o cachorrro esta correndo");
-}
+    correr(): void {
+        console.log("o cachorro esta correndo");
+    }
 
-emitirSom(): void;{
-    console.log("Au Au!");
-
+    emitirSom(): void {
+        console.log("Au Au!");
+    }
 }
-}
-
